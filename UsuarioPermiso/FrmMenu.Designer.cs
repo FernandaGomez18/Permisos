@@ -45,6 +45,7 @@
             this.txtUsuarios.TabIndex = 0;
             this.txtUsuarios.Text = "USUARIOS";
             this.txtUsuarios.UseVisualStyleBackColor = true;
+            this.txtUsuarios.Click += new System.EventHandler(this.txtUsuarios_Click);
             // 
             // txtProductos
             // 
@@ -55,6 +56,7 @@
             this.txtProductos.TabIndex = 1;
             this.txtProductos.Text = "PRODUCTOS";
             this.txtProductos.UseVisualStyleBackColor = true;
+            this.txtProductos.Click += new System.EventHandler(this.txtProductos_Click);
             // 
             // txtHerramientas
             // 
@@ -65,6 +67,7 @@
             this.txtHerramientas.TabIndex = 2;
             this.txtHerramientas.Text = "HERRAMIENTAS";
             this.txtHerramientas.UseVisualStyleBackColor = true;
+            this.txtHerramientas.Click += new System.EventHandler(this.txtHerramientas_Click);
             // 
             // panel1
             // 

@@ -18,7 +18,7 @@ namespace ManejadorPermiso
         public void Borrar(dynamic Entidad)
         {
             DialogResult rs = MessageBox.Show(
-                string.Format("¿Está seguro de borrar '{0}'",
+                string.Format("¿Está seguro de borrar {0}",
                 Entidad.Idusuario),
                 "!Atención", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);

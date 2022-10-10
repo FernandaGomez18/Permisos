@@ -21,8 +21,9 @@ namespace AccesoPermiso
         public void Guardar(dynamic Entidad)
         {
             b.Comando(string.Format("call p_insertarUsuario(" +
-                "'{0}','{1}','{2}','{3}','{4}','{5}')", Entidad.Idusuario, Entidad.Nombre,
-                Entidad.Apellidop, Entidad.Apellidom, Entidad.Fechanacimiento, Entidad.Rfc));
+                "{0},'{1}','{2}','{3}','{4}','{5}')", Entidad.Idusuario,
+                Entidad.Nombre, Entidad.Apellidop, Entidad.Apellidom,
+                Entidad.Fechanacimiento, Entidad.Rfc));
         }
 
         public DataSet Mostrar(string filtro)

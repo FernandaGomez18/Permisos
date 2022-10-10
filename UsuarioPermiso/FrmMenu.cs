@@ -16,5 +16,23 @@ namespace UsuarioPermiso
         {
             InitializeComponent();
         }
+
+        private void txtUsuarios_Click(object sender, EventArgs e)
+        {
+            FrmUsuario fu = new FrmUsuario();
+            fu.ShowDialog();
+        }
+
+        private void txtProductos_Click(object sender, EventArgs e)
+        {
+            FrmProducto fp = new FrmProducto();
+            fp.ShowDialog();
+        }
+
+        private void txtHerramientas_Click(object sender, EventArgs e)
+        {
+            FrmHerramienta fh = new FrmHerramienta();
+            fh.ShowDialog();
+        }
     }
 }

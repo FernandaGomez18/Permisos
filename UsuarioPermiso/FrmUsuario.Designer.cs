@@ -45,6 +45,9 @@
             this.dtgUsuarios.Name = "dtgUsuarios";
             this.dtgUsuarios.Size = new System.Drawing.Size(400, 183);
             this.dtgUsuarios.TabIndex = 0;
+            this.dtgUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgUsuarios_CellContentClick);
+            this.dtgUsuarios.Click += new System.EventHandler(this.dtgUsuarios_Click);
+            this.dtgUsuarios.Enter += new System.EventHandler(this.dtgUsuarios_Enter);
             // 
             // txtBuscar
             // 
@@ -52,6 +55,9 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(280, 23);
             this.txtBuscar.TabIndex = 1;
+            this.txtBuscar.Click += new System.EventHandler(this.dtgUsuarios_Click);
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            this.txtBuscar.Enter += new System.EventHandler(this.dtgUsuarios_Enter);
             // 
             // label1
             // 
@@ -61,6 +67,8 @@
             this.label1.Size = new System.Drawing.Size(54, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "NOMBRE(S)";
+            this.label1.Click += new System.EventHandler(this.dtgUsuarios_Click);
+            this.label1.Enter += new System.EventHandler(this.dtgUsuarios_Enter);
             // 
             // panel1
             // 
@@ -89,7 +97,8 @@
             this.btnBuscar.TabIndex = 5;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            this.btnBuscar.Click += new System.EventHandler(this.dtgUsuarios_Click);
+            this.btnBuscar.Enter += new System.EventHandler(this.dtgUsuarios_Enter);
             // 
             // FrmUsuario
             // 

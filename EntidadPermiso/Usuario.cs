@@ -8,7 +8,8 @@ namespace EntidadPermiso
 {
     public class Usuario
     {
-        public Usuario(int idusuario, string nombre, string apellidop, string apellidom, string fechanacimiento, string rfc)
+        public Usuario(int idusuario, string nombre, string apellidop, string apellidom,
+            string fechanacimiento, string rfc)
         {
             Idusuario = idusuario;
             Nombre = nombre;
